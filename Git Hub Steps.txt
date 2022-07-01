@@ -1,0 +1,42 @@
+maile git 
+invitationi kabul et 
+githud da yesil code kismina gel copy yap 
+intellij e gel 
+file - new- project from version control tikla 
+kopyaladigin codu yapistir clone a bas
+trust diye sorarsa trusti tikla 
+artik proje senin bilgisayarindaki git reposunun icinde
+intellijden terminali ac 
+su an main branchedyiz 
+simdi kendi branchimizi acmakla basliyoruz 
+git branch ayse( branchimi olusturdum)
+git checkout ayse( branchime gectim)
+su an ayse branchindeyim
+srcye gitiim , istedigim yerde degisiklik yaptim ve gondermek istiyorum 
+git add .
+git commit -m "ayse first commit"
+git push tikladim
+ekranda su yazi cikti ===> git push --set-upstream origin ayse 
+bir seferlik bu islemi yapiyorum, yaziyi kopyalayip yapistirip enter diyorum 
+git push --set-upstream origin ayse (entera bastim)
+artik ben yaptigim degisiklikleri ortak projeye gonderdim 
+artik projede ayse isminde bir branch olustu otomatik olarak 
+benim kodlarimi yetkili kisi ekledi maine , o benim isim degil
+diyelim ki bugunluk isim bitti 
+unutmayalim ben hala ayse branchindeyim 
+
+
+ertesi gun bilgisayarimi actim 
+intellijden terminali acarim 
+calismaya baslamadan once ortak projedeki kodlari cekmem lazim 
+bunu ayse branchinden yapamam , once main branche gecmeliyim 
+git checkout master (bunu yazinca main branche gectim)
+git fetch 
+git pull 
+bu adimlari yaptigim an projenin en yeni hali artik benim intellijimin Main branchinde 
+yenilikleri kendi branchime almak icin once kendi branchime gecerim
+git checkout ayse(kendi branchime gectim)
+simdi maindeki kodlari kendi branchime cekme islemini yaparim 
+git merge master 
+artik projenin en guncel hali benim barnchimde 
+
